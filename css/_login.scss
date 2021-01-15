@@ -1,0 +1,37 @@
+.container-login{
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        color: rgb(78, 245, 200);
+        align-self: center;
+        font-size: 40px;
+    }
+    p{
+        color: darkgray;
+        align-self: center;
+        font-size: 13px;
+    }
+    img{
+        width: 100%;
+        height: 230px;
+        max-width: 580px;
+        min-width: 580px;
+        object-fit: cover;
+        align-self: center;
+    }
+    button{
+        width: 145px;
+        height: 57px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        background: rgb(78, 245, 200);
+        font-size: 40px;
+        align-self: center;
+        text-transform: uppercase;
+        line-height: 1px;
+    }
+}
